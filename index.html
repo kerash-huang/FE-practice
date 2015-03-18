@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="item.css">
+<body>
+    <div class="block">
+        <div class="table-head-row">
+            <div class="table-head-col">00~02</div>
+            <div class="table-head-col">02~04</div>
+            <div class="table-head-col">04~06</div>
+            <div class="table-head-col">06~08</div>
+            <div class="table-head-col">08~10</div>
+            <div class="table-head-col">10~12</div>
+            <div class="table-head-col">12~14</div>
+            <div class="table-head-col">14~16</div>
+            <div class="table-head-col">16~18</div>
+            <div class="table-head-col">18~20</div>
+            <div class="table-head-col">20~22</div>
+            <div class="table-head-col">22~00</div>
+        </div>
+        <div class="table-row" hour="0">
+            <div class="schedule row-height-3">洗衣服，擦地板<br />testqijoqjo</div>
+            <div class="schedule row-height-3">洗衣服，擦地板<br />testqijoqjo</div>
+        </div>
+        <div class="table-row" hour="2">
+            <div class="schedule row-height-2">打電腦<br />testqijoqjo</div>
+        </div>
+
+        <div class="table-row" hour="4">
+            <div class="schedule row-height-1">再下一行<br />testqijoqjo</div>
+        </div>
+
+        <div class="table-row" hour="6">
+            <div class="schedule row-height-2">測試而已試試看<br />testqijoqjo</div>
+        </div>
+        <div class="table-row" hour="8"></div>
+        <div class="table-row" hour="10"></div>
+        <div class="table-row" hour="12"></div>
+        <div class="table-row" hour="14"></div>
+        <div class="table-row" hour="16"></div>
+        <div class="table-row" hour="18"></div>
+        <div class="table-row" hour="20"></div>
+        <div class="table-row" hour="22"></div>
+    </div>
+    <script>
+    $( ".table-row" ).sortable();
+    $( ".schedule" ).draggable({
+      connectToSortable: ".table-row",
+      stop: function(i){
+
+      }
+    });
+    </script>
+</body>
+</html>

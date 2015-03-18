@@ -1,0 +1,58 @@
+.block {
+    margin: 30px auto; 
+    border:1px solid #000;
+    overflow-x: auto;
+}
+
+.row-height-1 {height:70px; overflow:hidden;}
+.row-height-2 {height:143px; overflow:hidden;}
+.row-height-3 {height:216px; overflow:hidden;}
+.row-height-4 {height:289px; overflow:hidden;}
+.row-height-5 {height:359px; overflow:hidden;}
+.row-height-6 {height:431px; overflow:hidden;}
+.row-height-7 {height:503px; overflow:hidden;}
+.row-height-8 {height:575px; overflow:hidden;}
+.row-height-9 {height:647px; overflow:hidden;}
+.row-height-10 {height:719px; overflow:hidden;}
+.row-height-11 {height:791px; overflow:hidden;}
+.row-height-12 {height:863px; overflow:hidden;}
+
+.table-head-row {
+    float:left;
+    height:864px;
+    width: 120px;
+}
+
+.table-head-col {
+    float: left;
+    width: 120px;
+    height: 72px;
+    line-height: 72px;
+    margin-right:30px;
+    text-align: center;
+
+}
+
+.table-row {
+    max-width: 5000px;
+    border-bottom: 1px solid #000;
+    background: #DCDCDC;
+    height:73px;
+    overflow: visible;
+}
+.table-row:hover {
+    background:#EDEDED;
+}
+.table-row:last-child {
+    border-bottom:0px;
+}
+
+
+.table-row .schedule {
+    float: left;
+    width: 90px;
+    margin-right:5px;
+    border:1px solid #C7E7C7;
+    background: #99CC99;
+    overflow: hidden;
+}
